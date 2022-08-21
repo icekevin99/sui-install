@@ -7,5 +7,5 @@ sleep 3
     else
         echo "[`date +%F\ %T`] exe_name is online..." >> /blockchain/sui/monitor.log;
     fi
-    sleep 1m
+    sleep 5m
 done
